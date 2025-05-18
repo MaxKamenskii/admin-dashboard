@@ -8,20 +8,167 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="search"></div>
-            <div class="welcome"></div>
-            <div class="share"></div>
+        <div id="header">
+            <div id="search">
+                <div id="searchIcon"></div>
+                <div id="searchBar"></div>
+            </div>
+            
+            <div id="account">
+                Max Dendy
+            </div>
+            
+            <div id="welcome">
+                <p id="logo1">Logo</p>
+                <p id="message">
+                    <p>Hi there,</p>
+                    <p>Max Dendy (@max_dendy)</p>
+                </p>
+            </div>
+            <div class="share">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </div>
         <div class="sidebar">
-            <div class="title"></div>
-            <div class="nav"></div>
-            <div class="settings"></div>
+            <div class="title">BetterNews</div>
+            <div class="nav">
+                <ul class="list">
+                    <li><span><img src="images/home.svg"></span>Home</li>
+                    <li><span><img src="images/user.svg"></span>Profile</li>
+                    <li><span><img src="images/message-square.svg"></span>Messages</li>
+                    <li><span><img src="images/clock.svg"></span>History</li>
+                    <li><span><img src="images/bookmark.svg"></span>Saved</li>
+                    <li><span><img src="images/users.svg"></span>Communities</li>
+                </ul>
+            </div>
+            <div class="settings">
+                <ul class="list">
+                    <li><span><img src="images/settings.svg"></span>Settings</li>
+                    <li><span><img src="images/help-circle.svg"></span>Support</li>
+                    <li><span><img src="images/shield.svg"></span>Privacy</li>
+                </ul>
+            </div>
         </div>
         <div class="main">
-            <div class="articles"></div>
-            <div class="announcements"></div>
-            <div class="trending"></div>
+            <div class="content">
+                <p class="subheading" id="forYou">News for you</p>
+                <div class="articles">
+                    <div class="article">
+                        <div class="type">Sports</div>
+                        <div class="news">
+                            <div class="headline">Coach Fired? Nikola Couchich hired
+                            </div>
+                            <div class="articleText">
+                                Coachless Nuggets keep winning. Jokic treats basketball like a 9-to-5 and coaching like a side gig — then heads home to feed his horses.
+                            </div>
+                        </div>
+                        <div class="articleButtons">
+                            <div class="articleButton"><img src="images/bookmark_add.svg"></div>
+                            <div class="articleButton"><img src="images/open_in_new.svg"></div>
+                            <div class="articleButton"><img src="images/share.svg"></div>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="type">Economics</div>
+                        <div class="news">
+                            <div class="headline">
+                                World Declares 'Chill Week' — Markets Still Rise.
+                            </div>
+                            <div class="articleText">
+                                Economists now recommend leisure as a growth strategy.
+                            </div>
+                        </div>
+                        <div class="articleButtons">
+                            <div class="articleButton"><img src="images/bookmark_add.svg"></div>
+                            <div class="articleButton"><img src="images/open_in_new.svg"></div>
+                            <div class="articleButton"><img src="images/share.svg"></div>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="type">Technology</div>
+                        <div class="news">
+                            <div class="headline">
+                                Cat Learns to Code, Builds App to Demand Treats
+                            </div>
+                            <div class="articleText">
+                                Maine Coon named Pixel builds snack app. Silicon Valley watches in awe. The owner is frustrated.
+                            </div>
+                        </div>
+                        <div class="articleButtons">
+                            <div class="articleButton"><img src="images/bookmark_add.svg"></div>
+                            <div class="articleButton"><img src="images/open_in_new.svg"></div>
+                            <div class="articleButton"><img src="images/share.svg"></div>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="type">Science</div>
+                        <div class="news">
+                            <div class="headline">
+                                Scientists Accidentally Invent Blanket That Ends Overthinking
+                            </div>
+                            <div class="articleText">
+                                Early users report immediate naps and zero existential dread.
+                            </div>
+                        </div>
+                        <div class="articleButtons">
+                            <div class="articleButton"><img src="images/bookmark_add.svg"></div>
+                            <div class="articleButton"><img src="images/open_in_new.svg"></div>
+                            <div class="articleButton"><img src="images/share.svg"></div>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="type">Movies</div>
+                        <div class="news">
+                            <div class="headline">
+                                Movie Without Villain Becomes Worldwide Hit
+                            </div>
+                            <div class="articleText">
+                                The film "Everyone Just Gets Along" broke box office records despite lacking conflict.
+                            </div> 
+                        </div>
+                        <div class="articleButtons">
+                            <div class="articleButton"><img src="images/bookmark_add.svg"></div>
+                            <div class="articleButton"><img src="images/open_in_new.svg"></div>
+                            <div class="articleButton"><img src="images/share.svg"></div>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="type">Nature</div>
+                        <div class="news">
+                            <div class="headline">Trees Caught Communicating... in Dad Jokes!
+                            </div>
+                            <div class="articleText">
+                                Forestry researchers discovered that trees use roots signals to send puns like "I'm rooting for you.
+                            </div>
+                        </div>
+                        <div class="articleButtons">
+                            <div class="articleButton"><img src="images/bookmark_add.svg"></div>
+                            <div class="articleButton"><img src="images/open_in_new.svg"></div>
+                            <div class="articleButton"><img src="images/share.svg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="rightSideBar">
+                <div class="announcementsBox">
+                    <p class="subheading">Announcements</p>
+                    <div class="announcements">
+                        <div class="announcement">Box 1</div>
+                        <div class="announcement">Box 2</div>
+                        <div class="announcement">Box 3</div>
+                    </div>
+                </div>
+                <div class="trendingBox">
+                    <div class="subheading">Trending</div>
+                    <div class="trending">
+                        <div class="trend">Trend 1</div>
+                        <div class="trend">Trend 2</div>
+                        <div class="trend">Trend 3</div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="footer"></div>
     </div>
